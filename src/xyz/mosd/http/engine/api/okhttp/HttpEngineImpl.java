@@ -1,6 +1,7 @@
 package xyz.mosd.http.engine.api.okhttp;
 
 import java.io.IOException;
+import java.net.CookieHandler;
 import java.util.concurrent.TimeUnit;
 
 import xyz.mosd.http.engine.api.HttpConstants;
@@ -27,6 +28,11 @@ public class HttpEngineImpl extends HttpEngine {
 		mOkHttpClient.setConnectTimeout(HttpConstants.HTTP_TIMEOUT_SECONDS, TimeUnit.SECONDS);
 		mOkHttpClient.setReadTimeout(HttpConstants.HTTP_TIMEOUT_SECONDS, TimeUnit.SECONDS);
 		mOkHttpClient.setWriteTimeout(HttpConstants.HTTP_STREAM_WRITE_TIMEOUT_SECONDS, TimeUnit.SECONDS);
+	}
+
+	@Override
+	public void setCookieHandler(CookieHandler handler) {
+		mOkHttpClient.setCookieHandler(handler);
 	}
 
 	@Override
