@@ -1,4 +1,4 @@
-package xyz.mosd.http.engine.api;
+package xyz.mosd.http.api;
 
 public class HttpConstants {
 	private HttpConstants(){

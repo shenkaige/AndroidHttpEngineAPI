@@ -1,19 +1,18 @@
-package xyz.mosd.http.engine.api.okhttp;
+package xyz.mosd.http.api.okhttp;
 
 import java.io.IOException;
 import java.net.CookieHandler;
 import java.util.concurrent.TimeUnit;
 
-import xyz.mosd.http.engine.api.HttpConstants;
-import xyz.mosd.http.engine.api.HttpEngine;
-import xyz.mosd.http.engine.api.RequestCallback;
-import xyz.mosd.http.engine.api.RequestCallback2;
-import xyz.mosd.http.engine.api.RequestEntity;
-
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
+import xyz.mosd.http.api.HttpConstants;
+import xyz.mosd.http.api.HttpEngine;
+import xyz.mosd.http.api.RequestCallback;
+import xyz.mosd.http.api.RequestCallback2;
+import xyz.mosd.http.api.RequestEntity;
 
 import com.squareup.okhttp.Callback;
 import com.squareup.okhttp.OkHttpClient;

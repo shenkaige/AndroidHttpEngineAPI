@@ -1,4 +1,4 @@
-package xyz.mosd.http.engine.api;
+package xyz.mosd.http.api;
 
 public abstract class BasicRequestCallback<Result> implements RequestCallback2<Result> {
 

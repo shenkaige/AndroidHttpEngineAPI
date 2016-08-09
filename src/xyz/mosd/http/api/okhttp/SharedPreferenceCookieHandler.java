@@ -1,4 +1,4 @@
-package xyz.mosd.http.engine.api.okhttp;
+package xyz.mosd.http.api.okhttp;
 
 import java.net.HttpCookie;
 import java.util.Map;

@@ -1,10 +1,10 @@
-package xyz.mosd.http.engine.api.sample;
+package xyz.mosd.http.api.sample;
 
 import java.nio.charset.Charset;
 
-import xyz.mosd.http.engine.api.RequestEntity;
-import xyz.mosd.http.engine.api.RequestEntity.Method;
-import xyz.mosd.http.engine.api.okhttp.RequestEntityImpl;
+import xyz.mosd.http.api.RequestEntity;
+import xyz.mosd.http.api.RequestEntity.Method;
+import xyz.mosd.http.api.okhttp.RequestEntityImpl;
 
 /**
  * 服务器接口

@@ -1,4 +1,4 @@
-package xyz.mosd.http.engine.api;
+package xyz.mosd.http.api;
 
 import java.util.Map;
 

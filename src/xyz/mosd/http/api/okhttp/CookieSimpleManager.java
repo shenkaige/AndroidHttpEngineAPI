@@ -1,4 +1,4 @@
-package xyz.mosd.http.engine.api.okhttp;
+package xyz.mosd.http.api.okhttp;
 
 import java.io.IOException;
 import java.net.CookieHandler;
@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 import android.util.Log;
-import xyz.mosd.http.engine.api.HttpConstants;
+import xyz.mosd.http.api.HttpConstants;
 
 /**
  * Cookie Manager Simple implementation,just match cookie by host now

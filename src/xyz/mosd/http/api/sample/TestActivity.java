@@ -1,4 +1,4 @@
-package xyz.mosd.http.engine.api.sample;
+package xyz.mosd.http.api.sample;
 
 import java.io.IOException;
 
@@ -8,11 +8,11 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
+import xyz.mosd.http.api.RequestCallback;
+import xyz.mosd.http.api.okhttp.HttpEngineImpl;
+import xyz.mosd.http.api.okhttp.RequestEntityImpl;
+import xyz.mosd.http.api.okhttp.SharedPreferenceCookieHandler;
 import xyz.mosd.http.engine.api.R;
-import xyz.mosd.http.engine.api.RequestCallback;
-import xyz.mosd.http.engine.api.okhttp.HttpEngineImpl;
-import xyz.mosd.http.engine.api.okhttp.RequestEntityImpl;
-import xyz.mosd.http.engine.api.okhttp.SharedPreferenceCookieHandler;
 
 public class TestActivity extends Activity {
 	private TextView msgTv;
